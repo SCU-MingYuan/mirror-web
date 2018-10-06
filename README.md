@@ -40,14 +40,14 @@ gem install build
 bundle install
 jekyll build
 ```
-
+------------------
 ### Build In Docker
 ```
 cd mirror-web
 docker build -t builden -f Dockerfile.build .
 docker run -it -v /path/to/mirror-web/:/data builden
 ```
-
+------------------
 为正常运行，一些动态数据文件需要下载
 
 ```
@@ -56,7 +56,7 @@ wget https://mirrors.tuna.tsinghua.edu.cn/static/tunet.json -O static/tunet.json
 mkdir -p static/status
 wget https://mirrors.tuna.tsinghua.edu.cn/static/status/isoinfo.json -O static/status/isoinfo.json
 ```
-
+------------------
 之后 `jekyll serve` 即可运行 demo.
 
 更改端口：
