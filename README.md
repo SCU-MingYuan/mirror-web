@@ -1,5 +1,5 @@
 # SCU mirrors 主页
-## 这是四川大学开源镜像站主页，本主页fork自https://github.com/tuna/mirror-web,并加以修改。
+## 这是四川大学开源镜像站主页，本主页fork自https://github.com/tuna/mirror-web ,并加以修改。
 
 ## 运行 Demo
 
@@ -40,14 +40,14 @@ gem install build
 bundle install
 jekyll build
 ```
-
+------------------
 ### Build In Docker
 ```
 cd mirror-web
 docker build -t builden -f Dockerfile.build .
 docker run -it -v /path/to/mirror-web/:/data builden
 ```
-
+------------------
 为正常运行，一些动态数据文件需要下载
 
 ```
@@ -56,12 +56,14 @@ wget https://mirrors.tuna.tsinghua.edu.cn/static/tunet.json -O static/tunet.json
 mkdir -p static/status
 wget https://mirrors.tuna.tsinghua.edu.cn/static/status/isoinfo.json -O static/status/isoinfo.json
 ```
-
+------------------
 之后 `jekyll serve` 即可运行 demo.
 
 更改端口：
-`vi path_of_ruby/lib/ruby/gems/2.5.0/gems/jekyll-3.7.4/lib/jekyll/configuration.rb`
-#Serving:
+```
+vi path_of_ruby/lib/ruby/gems/2.5.0/gems/jekyll-3.7.4/lib/jekyll/configuration.rb
+```
+找到 `#Serving: `字段
 
 ## 贡献文档
 
