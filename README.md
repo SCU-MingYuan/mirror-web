@@ -4,14 +4,14 @@
 
 ### 直接编译
 
-本站使用 Jekyll 编写，并使用 babel 编译 ECMAScript6，因此必须安装 ruby >= 2.0 和 nodejs.
+本站使用 Jekyll 编写，并使用 babel 编译 ECMAScript6，因此必须安装 ruby >= 2.2.5 和 nodejs.
 
 ### For Centos
 1.安装 nodejs
 ```
 yum install nodejs
 ```
-2.安装 ruby 2.2.4 and rubygems
+2.安装 ruby 2.5.1 and rubygems
 
 Step 1: Install Required Packages
 ```
@@ -19,13 +19,13 @@ yum install gcc-c++ patch readline readline-devel zlib zlib-devel
 yum install libyaml-devel libffi-devel openssl-devel make
 yum install bzip2 autoconf automake libtool bison iconv-devel sqlite-devel
 ```
-Step 2: Compile ruby 2.2.4 source code
+Step 2: Compile ruby 2.5.1 source code
 ```
-wget -c https://cache.ruby-lang.org/pub/ruby/2.2/ruby-2.2.4.tar.gz
+wget -c https://cache.ruby-lang.org/pub/ruby/2.5/ruby-2.5.1.tar.gz
 ```
 Step 3: Install rubygems
 ```
-wget -c https://rubygems.org/rubygems/rubygems-2.4.8.tgz
+wget -c https://rubygems.org/rubygems/rubygems-2.7.7.tgz
 ruby setup.rb
 ```
 3. 安装 bundle 和 build
