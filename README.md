@@ -59,7 +59,9 @@ wget https://mirrors.tuna.tsinghua.edu.cn/static/status/isoinfo.json -O static/s
 
 之后 `jekyll serve` 即可运行 demo.
 
-更改端口：`vi path_of_ruby/lib/ruby/gems/2.5.0/gems/jekyll-3.7.4/lib/jekyll/configuration.rb`
+更改端口：
+`vi path_of_ruby/lib/ruby/gems/2.5.0/gems/jekyll-3.7.4/lib/jekyll/configuration.rb`
+#Serving:
 
 ## 贡献文档
 
