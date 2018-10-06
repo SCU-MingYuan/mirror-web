@@ -1,4 +1,5 @@
-# TUNA mirrors 主页
+# SCU mirrors 主页
+## 这是四川大学开源镜像站主页，本主页fork自https://github.com/tuna/mirror-web,并加以修改。
 
 ## 运行 Demo
 
@@ -57,6 +58,8 @@ wget https://mirrors.tuna.tsinghua.edu.cn/static/status/isoinfo.json -O static/s
 ```
 
 之后 `jekyll serve` 即可运行 demo.
+
+更改端口：`vi path_of_ruby/lib/ruby/gems/2.5.0/gems/jekyll-3.7.4/lib/jekyll/configuration.rb`
 
 ## 贡献文档
 
