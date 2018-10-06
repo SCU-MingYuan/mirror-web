@@ -1,5 +1,5 @@
 # SCU mirrors 主页
-## 这是四川大学开源镜像站主页，本主页fork自https://github.com/tuna/mirror-web,并加以修改。
+## 这是四川大学开源镜像站主页，本主页fork自https://github.com/tuna/mirror-web ,并加以修改。
 
 ## 运行 Demo
 
